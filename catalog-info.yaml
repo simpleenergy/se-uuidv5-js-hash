@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: se-uuidv5-js-hash
+  description: Se-Uuidv5-Js-Hash service
+  annotations:
+   github.com/project-slug: simpleenergy/se-uuidv5-js-hash
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:uplight-inc/tide-pod
